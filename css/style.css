@@ -1,0 +1,132 @@
+#title{background-color: #185ADB;}
+.container-fluid{padding: 3% 15%;}
+
+.download-button{
+  margin: 4% 0 4% 4%;
+}
+h1{
+  font-size: 2.5rem;
+  color: white;
+}
+h2{
+  font-size: 2rem;
+  color: #185ADB;
+  margin: 7% 15%;
+
+}
+h3{color: black;
+  font-size: 2rem;
+}
+p{
+  color: grey;
+}
+.dog1{
+border-radius: 15%;
+  width: 25%;
+  position: absolute;
+  right: 20%;
+}
+em{color: black;
+font-size: 2rem;}
+
+.icon{
+  color: #39A2DB;
+}
+.icon:hover{
+  color: #A2DBFA;
+}
+.navbar-brand{
+  font-size: 3.5rem;
+}
+#features{
+  padding: 15% 7%;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+
+}
+#testimonials{
+  background-color: #CDF0EA;
+  text-align: center;
+  padding: 7% 15%;
+}
+.testimonial-image{
+  margin: 2%;
+  width: 15%;
+  border-radius: 90%;
+}
+.card-pic{
+  width: 70%;
+  border-radius: 10%;
+}
+.card-pic1{
+  width: 70%;
+  border-radius: 110%;
+}
+
+#press{
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 10%;
+  padding-top: 5%;
+}
+.press-pic{
+  margin: 10px;
+
+}
+.press-pic1{margin-left: 60px;
+  width: 15%;
+}
+#pricing{
+  background-color: #B5EAEA;
+  text-align: center;
+  padding: 3% 10%;
+}
+.card-header{
+  background-color: #B5EAEA;
+  color: white;
+}
+.card-body{
+  background-color: #fff;
+  color: white;
+}
+#cta{
+  background-color: #CDF0EA;
+  text-align: center;
+  font-family: monospace;
+  color: white;
+  font-size: 2.5rem;
+padding: 7% 15%;
+
+}
+#footer{
+  padding: 7% 15%;
+  background-color: white;
+  text-align: center;
+}
+.footer-icon{
+  margin: 3px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1028px) {
+  .dog1{
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+    align-items: center;
+
+  }
+  h1{
+    text-align: center;
+  }
+}
